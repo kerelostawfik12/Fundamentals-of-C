@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int factorial=1;
+    printf("Give me an Integer> ");
+    scanf("%d", &n);
+
+    for(ii =1; ii<n; ii++)
+    {
+    factorial = factorial * ii; 
+    }
+
+    printf("The factorial of %d is %d\n", n, factorial);
+    return 0;
+
+    
+    
+    }
+}
